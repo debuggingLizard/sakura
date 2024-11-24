@@ -1,0 +1,50 @@
+@import './../../../colors.scss';
+
+nav {
+    padding: 0 32px;
+    height: 112px;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+    >div {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        >a {
+            &:hover {
+                color:  $red;
+            }
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.phone-btn {
+    background-color: $red;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    display: flex;
+    gap: 4px;
+
+    >img {
+        height: 24px;
+        width: 24px;
+        align-self: center;
+    }
+
+    &:hover {
+        background-color: $footer-black;
+    }
+}
