@@ -2,12 +2,12 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-footer',
+  selector: 'app-location',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './footer.component.html',
-  styleUrl: './footer.component.scss'
+  templateUrl: './location.component.html',
+  styleUrl: './location.component.scss'
 })
-export class FooterComponent {
+export class LocationComponent {
 
 }

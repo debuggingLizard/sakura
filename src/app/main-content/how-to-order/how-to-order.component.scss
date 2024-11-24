@@ -1,0 +1,36 @@
+@import './../../../colors.scss';
+
+section {
+    padding: 120px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+h2 {
+    color: $red;
+    font-size: 80px;
+    text-align: center;
+}
+
+.dishes-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dishes {
+display: flex;
+flex-direction: column;
+gap: 16px;
+align-items: center;
+    >img {
+        width: 128px;
+        height: 128px;
+    }
+
+    >p {
+        font-size: 56px;
+        text-align: center;
+    }
+}

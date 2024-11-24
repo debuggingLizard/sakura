@@ -1,0 +1,64 @@
+@import './../../../colors.scss';
+
+section {
+    background-image: url('./../../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+h2 {
+    color: $red;
+    font-size: 80px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    >img {
+        width: 352px;
+        height: 352px;
+    }
+
+    h3 {
+        font-size: 56px;
+    }
+
+    table {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    td {
+        font-family: 'Raleway Bold';
+        font-size: 32px;
+        color: $grey;
+    }
+
+    tr {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.dish-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
