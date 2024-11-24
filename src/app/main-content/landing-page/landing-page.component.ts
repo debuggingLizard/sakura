@@ -3,17 +3,10 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 
 @Component({
-  selector: 'app-landingPage',
+  selector: 'app-landing-page',
   standalone: true,
   imports: [CommonModule, NavbarComponent],
-  template: `
-    <section>
-      <div><app-navbar></app-navbar></div>
-
-      <h1 class="fontRalewayBold">SAKURA RAMEN</h1>
-      <h2>BEST RAMEN IN TOWN</h2>
-    </section>
-  `,
-  styleUrls: ['./landingPage.component.scss'],
+  templateUrl: './landing-page.component.html',
+  styleUrls: ['./landing-page.component.scss'],
 })
 export class LandingPageComponent {}
